@@ -1,0 +1,18 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server -p 8456"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julietamorrazo/Porfolio-YoProgramo-Frontend"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julietamorrazo/Porfolio-YoProgramo-Frontend/issues"
+  }
+}

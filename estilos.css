@@ -1,0 +1,310 @@
+#body {
+	background-color: #1d809f;
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: stretch;
+	outline: none;
+
+
+}
+
+#nav {
+	background-color: #1d809f;
+	display: flex;
+	margin-top: 40px;
+	margin-bottom: 60px;
+}
+
+#botonNav {
+	display: flex;
+	justify-content: space-around;
+	margin-right: 30px;
+}
+
+#botonNav:hover before {
+	transform: scaleX(1);
+	color: #1d809f
+}
+
+/* contenedor foto */
+#container-foto {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 190px
+}
+
+#foto {
+
+	width: 312px;
+	/* border-radius: 174px */
+	clip-path: polygon(0 0, 100% 0, 125% 66%, 48% 101%, 0 75%);
+	box-shadow: 1px 1px 11px #00000030;
+}
+
+
+#full-screen {
+	width: 100%;
+	height: 100%;
+	background-color: #1d809f;
+}
+
+#header {
+	background-color: #1d809f;
+	width: 100%;
+	height: 100%;
+}
+
+*/ #icons {
+
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	margin-top: 30px
+}
+
+
+#icons-container {
+	display: flex;
+
+}
+
+#github-icon {
+	float: left;
+}
+
+#linkedin-icon {
+	float: left;
+}
+
+#buttons-container {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+}
+
+/* #botonNav {
+	float: right;
+	padding: 15px;
+} */
+
+
+
+/* #sections {
+
+	width: 100%;
+	height: 100%;
+
+} */
+
+#cards {
+	/* display:flex; */
+	width: 100%;
+	margin-top: 200px;
+	background: #fff;
+	padding: 25px;
+	text-align: center;
+	box-shadow: 1px 1px 11px #00000030;
+	transition: 0.6s;
+	outline: none;
+
+}
+
+#cards:hover {
+	transform: scale(1.05);
+}
+
+#titulo-tarjetas {
+	color: #efb810;
+}
+
+#items {
+	display: flex;
+	flex-direction: column;
+	font-size: 20px;
+	color: #1d809f;
+}
+
+#titulo-items {
+	color: #efb810;
+	text-decoration: none;
+}
+
+#item-skills {
+	display: flex;
+	flex-direction: row
+}
+
+
+/* pie de pagina */
+
+#footer {
+	font-family: 'Poppins', sans-serif;
+	background: #1d809f;
+	margin-top: 30px;
+	font-size: 16px;
+	color: #efb810;
+	clear: both;
+	padding: 10px 0px;
+	text-align: center;
+}
+
+/* titulo principal */
+#titulo-ppal {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: stretch;
+	margin-right: 240px;
+
+}
+
+
+
+
+#title {
+	/* text-decoration-thickness: 10px; */
+	font-size: 50px;
+	color: #efb810;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+#subtitle {
+
+
+	font-size: 30px;
+	color: whitesmoke;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	margin-top: 20px;
+}
+
+
+/* botones navbar */
+
+#botones {
+	color: #f9db5c;
+	text-decoration: none;
+	float: right;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+#botones:hover before {
+	transform: scaleX(1);
+	color: #1d809f
+}
+
+#icons-skilss {
+	max-width: 205px;
+}
+
+#icon-github:before {
+	display: inline-block;
+	color: white;
+	font-size: 30px;
+	margin-right: 20px;
+}
+
+#icon-linkedin:before {
+	display: inline-block;
+	color: white;
+	font-size: 30px;
+}
+
+#parrafo {
+	text-align: initial;
+	/* text-decoration: none; */
+	font-family: 'Poppins', sans-serif;
+	color: #1d809f;
+	font-size: 20px;
+}
+
+#contenedor-formularios {
+	width: 450px;
+	margin: 20px auto;
+	background: #1d809f;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-radius: 7px;
+}
+
+input,
+textarea {
+	display: block;
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 17px;
+	border: none;
+}
+
+#textarea {
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100%;
+}
+
+#tituloformulario {
+	color: #efb810;
+	text-align: center;
+
+}
+
+#parrafoformulario {
+	color: #fff;
+	font-size: 20px;
+}
+
+#boton-form {
+	background-color: #31384A;
+	color: #f9db5c;
+	padding: 20px;
+	transition: 0.4s;
+	font-size: 20px
+}
+
+#boton-form:hover {
+	background: #34495E;
+	cursor: pointer;
+}
+
+#placeholder-form {
+	font-size: 15px;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+#lista {
+
+	text-align: start;
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	color: #1d809f !important;
+}
+
+#lista-link {
+
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+	color: #efb810;
+}
+
+#icono-skills {
+	font-size: 90px;
+	color: #1d809f
+}
+
+
+
+
+
+/* revisado */
